@@ -1,0 +1,27 @@
+{
+  "name": "palabras",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "babel --modules amd src -w -d out"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0"
+  },
+  "babel": {
+    "plugins": [
+      "transform-es2015-modules-amd"
+    ],
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "parse": "^1.6.14",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.5",
+    "react-router": "^1.0.3"
+  }
+}
